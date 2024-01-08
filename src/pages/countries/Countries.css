@@ -1,0 +1,11 @@
+.countries {
+  background-color: darkorchid;
+  color: hotpink;
+  border: 2px dotted floralwhite;
+  padding: 10px;
+}
+.countries-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
